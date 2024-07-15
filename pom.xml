@@ -84,6 +84,7 @@
         <!-- The huge set of awesome Java libraries are available as such 
             for Vaadin developers, you should take the advantage of those. In this app 
             we just use the commons-beanutils to help implementing the fake backend. -->
+	
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
@@ -156,6 +157,20 @@
 
 
 		</dependencies>
+<dependencies>
+    <!-- Other dependencies -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>4.0.0</version>
+    </dependency>
+</dependencies>
+
 
     <build>
         <plugins>
